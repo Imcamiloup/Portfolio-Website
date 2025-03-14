@@ -23,20 +23,28 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from "../assets/assets";
 
-export const navLinks = [
+const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "sobre-mi",
+    title: "Sobre Mi",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experiencia",
+    title: "Experiencia",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "tecnologias",
+    title: "Tecnologias",
+  },
+  {
+    id: "proyectos",
+    title: "Proyectos",
+  },
+  {
+    id: "contacto",
+    title: "Contacto",
   },
 ];
 
@@ -262,4 +270,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  navLinks,
+};
