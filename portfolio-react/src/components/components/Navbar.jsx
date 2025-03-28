@@ -42,13 +42,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-[80px] h-[40px] sm:w-[100px] sm:h-[50px] md:w-[120px] md:h-[60px] lg:w-[140px] lg:h-[70px] object-contain"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Luis Camilo &nbsp;
-            <span className="sm:block hidden">
-              {" "}
-              | Desarrollador de Software
-            </span>
+            {" "}
+            <span className="sm:block hidden"></span>
           </p>
         </Link>
 

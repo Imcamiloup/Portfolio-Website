@@ -23,28 +23,30 @@ import {
   jobit,
   tripguide,
   threejs,
+  csi,
+  unix,
 } from "../assets/assets";
 
 const navLinks = [
   {
     id: "sobre-mi",
-    title: "Sobre Mi",
+    title: "About Me",
   },
   {
     id: "experiencia",
-    title: "Experiencia",
+    title: "Experience",
   },
   {
     id: "tecnologias",
-    title: "Tecnologias",
+    title: "Technologies",
   },
   {
     id: "proyectos",
-    title: "Proyectos",
+    title: "Projects",
   },
   {
     id: "contacto",
-    title: "Contacto",
+    title: "Contact",
   },
 ];
 
@@ -62,8 +64,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Dev Ops",
+    icon: docker,
   },
 ];
 
@@ -124,55 +126,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Flask and React Native Developer",
+    company_name: "CSI Business Services",
+    icon: csi,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2024 - March 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I developed the API for a crop management system, facilitating the scheduling of harvesting, receiving, and delivery of agricultural products. I also implemented services for the efficient collection and management of the system's operational data.",
+      "In the React Native application for drivers, I designed and implemented a secure registration system with offline functionality, ensuring the integrity of the collected data. I also developed a user shift synchronization mechanism and optimized the transmission of collected information, ensuring its availability and consistency across the platform.",
+      "Python using the Flask framework, MySQL database, and JavaScript using the React Native framework.",
+      "Test endpoints using Jest testing framework.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "TypeScript and Java Developer",
+    company_name: "Unix Telemetría",
+    icon: unix,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2023 - Actuality",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development and optimization of a dashboard and web service for managing operational data for a vehicle fleet, including real-time monitoring, traceability, and inventory management.",
+      "Implemented microservices in NestJS and Spring Boot, improving system scalability and maintainability.",
+      "Optimizing SQL queries in MySQL, reducing response times and improving data access efficiency.",
+      "Third-party API integration for vehicle tracking, payment processing, and automated reporting.",
+      "Security and authentication, using JWT and OAuth to protect endpoints and manage role-based access.",
+      "Continuous deployment (CI/CD) on AWS using Docker and Kubernetes, ensuring system availability and stability.",
+      "Mentoring and documentation, guiding new developers and generating technical documentation to facilitate the adoption of best practices.",
     ],
   },
 ];
