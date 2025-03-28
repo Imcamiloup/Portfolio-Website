@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import express from "./tech/express.png";
+import sql from "./tech/sql.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -63,4 +67,8 @@ export {
   tripguide,
   csi,
   unix,
+  express,
+  sql,
+  java,
+  python,
 };

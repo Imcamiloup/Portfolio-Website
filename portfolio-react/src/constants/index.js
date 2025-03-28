@@ -11,20 +11,17 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   csi,
   unix,
+  express,
+  python,
+  java,
+  sql,
 } from "../assets/assets";
 
 const navLinks = [
@@ -103,20 +100,28 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Express JS",
+    icon: express,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "MySQL",
+    icon: sql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "docker",
