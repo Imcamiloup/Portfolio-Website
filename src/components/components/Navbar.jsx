@@ -25,6 +25,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavClick = (id) => {
+    setActive(id);
+    setToggle(false);
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav
       className={`${
@@ -39,7 +48,7 @@ const Navbar = () => {
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
-            window.scrollTo(0, 0);
+            window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
           <img

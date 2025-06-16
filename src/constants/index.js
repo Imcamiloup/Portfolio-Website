@@ -22,29 +22,18 @@ import {
   python,
   java,
   sql,
+  mule1,
+  terraverde1,
+  viajelogico,
 } from "../assets/assets";
 
 const navLinks = [
-  {
-    id: "sobre-mi",
-    title: "About Me",
-  },
-  {
-    id: "experiencia",
-    title: "Experience",
-  },
-  {
-    id: "tecnologias",
-    title: "Technologies",
-  },
-  {
-    id: "proyectos",
-    title: "Projects",
-  },
-  {
-    id: "contacto",
-    title: "Contact",
-  },
+  { id: "hero", title: "Home" },
+  { id: "about", title: "About Me" },
+  { id: "experience", title: "Experience" },
+  { id: "tech", title: "Technologies" },
+  { id: "works", title: "Projects" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
@@ -120,10 +109,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -190,16 +175,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mule Shipments",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A technological solution designed to facilitate the fast and cost-effective shipping of items within the city or nationwide. This platform allows users to easily request and schedule pickups, optimizing time and reducing logistics costs. In addition, the package recipient receives email notifications about the shipment status, even if they are not registered on the platform.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mule1,
+    source_code_link: "https://github.com/Imcamiloup/Mule-Backend",
+  },
+  {
+    name: "Terra Verde",
+    description:
+      "Web design of an easy-to-use dashboard that manages and monitors the supply chain of a premium coffee company, view for customers, products, harvests and shipments, ready to integrate with a backend, attractive visual elements and different graphs and interactive tables are added that allow to analyze the status of the business.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -207,50 +217,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: terraverde1,
+    source_code_link: "https://github.com/Imcamiloup/Terra-verde",
   },
   {
-    name: "Job IT",
+    name: "The Logical Travel Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A scientific outreach blog entirely in HTML, CSS, and JavaScript, with an attractive, responsive design that allows users to explore articles on science and technology topics.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: viajelogico,
+    source_code_link: "https://github.com/Imcamiloup/Un-Viaje-Logico",
   },
 ];
 

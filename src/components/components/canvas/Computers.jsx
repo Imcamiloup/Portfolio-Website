@@ -9,7 +9,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.35} groundColor="black" />
+      <hemisphereLight intensity={0.35} groundColor="white" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -93,7 +93,6 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );

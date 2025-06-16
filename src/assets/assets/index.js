@@ -32,11 +32,15 @@ import tesla from "./company/tesla.png";
 import csi from "./company/csi.png";
 import unix from "./company/unix.png";
 
+import terraverde1 from "./company/terraverde.jpg";
+import mule1 from "./company/mule.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import viajelogico from "./viajelogico.jpg";
 
 export {
+  viajelogico,
   logo,
   backend,
   creator,
@@ -71,4 +75,6 @@ export {
   sql,
   java,
   python,
+  mule1,
+  terraverde1,
 };

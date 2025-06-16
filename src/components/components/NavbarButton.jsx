@@ -7,7 +7,16 @@ const NavbarButton = ({ href, text }) => {
   const dispatch = useDispatch();
   const activeButton = useSelector((state) => state.navbar.activeButton);
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    // Si el href es un ancla interna, evita la navegación por defecto y haz scroll suave
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const id = href.replace("#", "");
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
     dispatch(setActiveButton(href));
   };
 
